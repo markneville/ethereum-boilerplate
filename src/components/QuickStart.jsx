@@ -36,7 +36,7 @@ export default function QuickStart({ isServerInfo }) {
         style={styles.card}
         title={
           <>
-            📝 <Text strong>To-Do List</Text>
+            📝 <Text strong>POC (Alpha) List</Text>
           </>
         }
       >
@@ -127,7 +127,6 @@ export default function QuickStart({ isServerInfo }) {
                 1inch Moralis Plugin
               </a>{" "}
               needed for the<Text code>{"<InchDex />"}</Text> component
-              (optional)
             </Text>
           </Timeline.Item>
 
@@ -141,7 +140,7 @@ export default function QuickStart({ isServerInfo }) {
           style={styles.card}
           title={
             <>
-              💣 <Text strong>Starting Local Chain (optional)</Text>
+              💣 <Text strong>Start Local Chain</Text>
             </>
           }
         >
@@ -191,7 +190,7 @@ export default function QuickStart({ isServerInfo }) {
           title={
             <>
               📡{" "}
-              <Text strong> Connecting your Local Chain to the Moralis DB</Text>
+              <Text strong> Connecting our Local Chain to the Moralis DB</Text>
             </>
           }
         >
